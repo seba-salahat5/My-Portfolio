@@ -6,6 +6,7 @@
     --main_text_color: #000000;
 }
 
+
 body {
     font-family: 'Poppins', sans-serif;
     background-color: var(--background_color);
