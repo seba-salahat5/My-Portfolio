@@ -1,12 +1,12 @@
 :root {
     --background_color: #ffffff;
     --secondary_color: #D1884F;
-    --main_color :#008AAA;
-    --highlight_color:  #3BBADB;
+    --main_color: #008AAA;
+    --highlight_color: #3BBADB;
     --main_text_color: #000000;
 }
 
-* { 
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -38,7 +38,7 @@ nav a {
     text-decoration: none;
     padding: 15px;
     margin: 0;
-    color: var(--main_text_color); 
+    color: var(--main_text_color);
     text-align: center;
 }
 
@@ -60,7 +60,7 @@ main {
     margin-bottom: 50px;
 }
 
-.information_section{
+.information_section {
     width: 60%;
     margin-right: 25px;
 }
@@ -76,21 +76,21 @@ aside {
 .image-container {
     width: 367px;
     height: 320px;
-    border-radius: 0 0 0 45%; 
-    background-color: var(--highlight_color); 
+    border-radius: 0 0 0 45%;
+    background-color: var(--highlight_color);
     margin-top: 32px;
 }
 
 .quarter_shape_img {
-    border-radius: 0 0 0 45%; 
+    border-radius: 0 0 0 45%;
     width: 350px;
     height: 350px;
-    position:relative;
+    position: relative;
     bottom: 31px;
-    left: 18px; 
+    left: 18px;
 }
 
-#secondary_text{
+#secondary_text {
     opacity: 0.7;
     color: var(--highlight_color);
     margin-top: 0;
@@ -105,62 +105,35 @@ h1 {
     color: var(--main_color);
     font-size: xx-large;
     font-weight: bolder;
-    padding:0px;
+    padding: 0px;
     margin: 0px
 }
 
 #additional_text {
-    font-weight:600 ;
+    font-weight: 600;
     margin-top: 50px;
     margin-bottom: 50px;
     padding: 0px;
 }
+
 #additional_text a {
     text-decoration: none;
     color: var(--highlight_color);
 }
 
-/*@media screen and (min-width: 1600px) {
-    .image-container {
-        width: 367px;
-        height: 320px;
-    }
-    
-    .quarter_shape_img {
-        width: 350px;
-        height: 350px;
-    }
-}*/
-/*@media screen and (min-width: 1187px) {
-    main{
-        margin-left: 5%;
-        margin-right: 5%;
-    }
-    .image-container {
-        width: 46vw;
-        max-width: 420px;
-    }
-    .quarter_shape_img { 
-        width: 46vw;
-        height: 46vw;
-        max-width: 420px;
-        max-height: 420px;
-    }
-}*/
-
 @media screen and (max-width: 712px) {
-    main{
+    main {
         display: block;
         margin-left: auto;
         margin-right: auto;
         width: 42em;
     }
 
-    .information_section{
+    .information_section {
         margin-left: auto;
         margin-right: auto;
     }
-    
+
     aside {
         margin-left: auto;
         margin-right: auto;
@@ -169,11 +142,12 @@ h1 {
     .image-container {
         margin-top: 0px;
         display: flex;
-        justify-content:center;
+        justify-content: center;
         width: 367px;
         height: 320px;
     }
-    .quarter_shape_img { 
+
+    .quarter_shape_img {
         width: 350px;
         height: 350px;
     }
