@@ -119,35 +119,6 @@ h1 {
     text-decoration: none;
     color: var(--highlight_color);
 }
-
-/*@media screen and (min-width: 1600px) {
-    .image-container {
-        width: 367px;
-        height: 320px;
-    }
-    
-    .quarter_shape_img {
-        width: 350px;
-        height: 350px;
-    }
-}*/
-/*@media screen and (min-width: 1187px) {
-    main{
-        margin-left: 5%;
-        margin-right: 5%;
-    }
-    .image-container {
-        width: 46vw;
-        max-width: 420px;
-    }
-    .quarter_shape_img { 
-        width: 46vw;
-        height: 46vw;
-        max-width: 420px;
-        max-height: 420px;
-    }
-}*/
-
 @media screen and (max-width: 712px) {
     main{
         display: block;
