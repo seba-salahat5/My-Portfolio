@@ -1,0 +1,19 @@
+function findCombinationFactors(nums, target) {
+  const indices = new Map();
+
+  for (let i = 0; i < nums.length; i++) {
+    const firstFactor = target - nums[i];
+
+    if (indices.has(firstFactor)) {
+      return [indices.get(firstFactor), i];
+    }
+
+    indices.set(nums[i], i);
+  }
+
+  return [];
+}
+
+
+
+
